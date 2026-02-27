@@ -1,0 +1,12 @@
+### Get all posts
+GET https://jsonplaceholder.typicode.com/posts
+Accept: application/json
+
+
+### Get single post
+GET https://jsonplaceholder.typicode.com/posts/10
+Accept: application/json
+
+
+### Get single post
+GET http://localhost:3000
