@@ -10,3 +10,6 @@ Accept: application/json
 
 ### Get single post
 GET http://localhost:3000
+
+### Get single post
+GET http://localhost:3000
