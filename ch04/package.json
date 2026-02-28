@@ -1,0 +1,27 @@
+{
+  "name": "ch04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon server.js",
+    "start-tp03": "nodemon tp03.js",
+    "start-tp04": "nodemon tp04.js",
+    "start-tp05": "nodemon tp05.js",
+    "start-tp06": "nodemon tp06.js",
+    "exercise": "nodemon exercise.js",
+    "tp07": "nodemon tp07.js",
+    "tp08": "nodemon tp08.js",
+    "tp09": "nodemon tp09.js",
+    "solution": "nodemon exercise1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "uuidv4": "^6.2.13"
+  }
+}
