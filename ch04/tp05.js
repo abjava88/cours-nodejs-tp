@@ -6,9 +6,9 @@ const port = 3000
 
 router.use(logger)
 
-router.get('/', (req, res, next) => {
-    console.log('Got get to root path')
-    res.send('Got get to root path')
+router.get('/', (req, res) => {
+    console.log('Got get to root path');
+    res.send('Got get to root path');
 })
 
 router.get('/users', auth, (req, res) => {
@@ -32,6 +32,7 @@ function auth(req, res, next){
 
 app.use(router);
 
+app.use(defaultErrorHandler)
 app.listen(port, () => {
   console.log("Example app listening on port ", port)
 })
