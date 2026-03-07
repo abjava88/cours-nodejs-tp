@@ -1,4 +1,33 @@
 ### Requête GET
-GET http://localhost:3000/users
+GET http://localhost:3000/employees
 Accept: application/json
+
+### Get by id
+GET http://localhost:3000/employees/69ac4ecefe30e4ced76617d0
+Accept: application/json
+
+### Requête POST
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+    "firstName": "Alex",
+    "lastName": "Sam",
+    "birthDate": "1990-01-01"
+}
+
+### Requête UPSERT
+POST http://localhost:3000/employees/69ac4ecefe30e4ced76617d8
+Content-Type: application/json
+
+{
+    "firstName": "sdgfdgfsd",
+    "lastName": "Abbdsgsdgsdges",
+    "birthDate": "1990-01-01"
+}
+
+
+### Requête DELETE
+DELETE http://localhost:3000/employees/69ac4ecefe30e4ced76617d8
+Content-Type: application/json
 
